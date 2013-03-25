@@ -1,0 +1,18 @@
+Map
+
+- map {
+    width: 10;
+    height: 5;
+    
+    map-array = [];
+    map-objects = [];
+    map-tileset = Tileset();
+    
+    draw = function(){};
+}
+
+-map-object {
+    collides = false;
+    resist = 0;
+}
+
